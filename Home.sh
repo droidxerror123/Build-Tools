@@ -51,6 +51,7 @@ $E
 $F
 $G
 $H """ >> Tools-1.sh
+echo "Tools Disimpan dengan Nama Tools-1.sh"
 fi
 read -p "[Y / N ] :" Y ;
 
@@ -83,6 +84,7 @@ $E
 $F
 $G
 $H """ >> Tools-2.sh
+echo "Tools Disimpan dengan Nama Tools-1.sh"
 fi
 read -p "[Y / N ] :" Y ;
 
@@ -115,6 +117,7 @@ $E
 $F
 $G
 $H """ >> Tools-3.sh
+echo "Tools Disimpan dengan Nama Tools-3.sh"
 fi
 
 read -p "[Y / N ] :" Y ;
@@ -147,6 +150,7 @@ $E
 $F
 $G
 $H """ >> Tools-4.sh
+echo "Tools Disimpan Dengan Nama Tools-4.sh"
 fi
 
 read -p "[Y / N ] :" Y ;
@@ -180,6 +184,7 @@ $E
 $F
 $G
 $H """ >> Tools-5.sh
+echo "Tools Disimpan dengan Nama Tools-5.sh"
 fi
 
 read -p "[Y / N ] :" Y ;
@@ -280,6 +285,6 @@ if [ $ea = 0 ]
 then
 clear
 echo "Terima Kasih"
-echo "Sanpai Bertemu Lain Waktu\nThanks To My Friends"
+echo "Sampai Bertemu diLain Waktu\nThanks To My Friends"
 exit
 fi
