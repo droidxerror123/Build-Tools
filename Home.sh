@@ -32,6 +32,7 @@ echo "\033[96m"
  echo "5) Build Tools 5"
  echo "6) Gabung Semua Tools"
  echo "0) EXIT" 
+ echo "\033[96m"
  read -p "root@Pilih=>"  ea ;
  
  if [ $ea = 1 ]
@@ -263,6 +264,10 @@ clear
 cat Tools-5
 fi
 """ >> Gabung.sh
+echo "Tools Disimpan dengan Nama Gabung.sh"
+echo "edit toolsnya terus"
+echo "Tambahkan ($.apa) tanpa tanda (.) "
+echo "dibagian tanda (#) \034[92mif [ # = 1 ]\033[0m"
 read -p "[Y / N ] :" Y ;
 
 if [ $Y = Y ] || [ $Y = y ]
