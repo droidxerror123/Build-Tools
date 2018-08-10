@@ -52,10 +52,9 @@ $F
 $G
 $H """ >> Tools-1.sh
 echo "Tools Disimpan dengan Nama Tools-1.sh"
-fi
-read -p "[Y / N ] :" Y ;
+read -p "[L / N ] :" Y ;
 
-if [ $Y = Y ] || [ $Y = y ]
+if [ $Y = L ] || [ $Y = l ]
 then
 clear
 sh Home.sh
@@ -65,6 +64,7 @@ if [ $Y = N ] || [ $Y = n ]
 then
 clear
 exit
+fi
 fi
 
 if [ $ea = 2 ]
@@ -85,7 +85,6 @@ $F
 $G
 $H """ >> Tools-2.sh
 echo "Tools Disimpan dengan Nama Tools-1.sh"
-fi
 read -p "[Y / N ] :" Y ;
 
 if [ $Y = Y ] || [ $Y = y ]
@@ -98,6 +97,7 @@ if [ $Y = N ] || [ $Y = n ]
 then
 clear
 exit
+fi
 fi
 
 if [ $ea = 3 ]
@@ -118,8 +118,6 @@ $F
 $G
 $H """ >> Tools-3.sh
 echo "Tools Disimpan dengan Nama Tools-3.sh"
-fi
-
 read -p "[Y / N ] :" Y ;
 
 if [ $Y = Y ] || [ $Y = y ]
@@ -132,6 +130,7 @@ if [ $Y = N ] || [ $Y = n ]
 then
 clear
 exit                                                                
+fi
 fi
 
 if [ $ea = 4 ]
@@ -151,8 +150,6 @@ $F
 $G
 $H """ >> Tools-4.sh
 echo "Tools Disimpan Dengan Nama Tools-4.sh"
-fi
-
 read -p "[Y / N ] :" Y ;
 
 if [ $Y = Y ] || [ $Y = y ]
@@ -165,6 +162,7 @@ if [ $Y = N ] || [ $Y = n ]
 then
 clear
 exit                                                                
+fi
 fi
 
 if [ $ea = 5 ]
@@ -185,8 +183,6 @@ $F
 $G
 $H """ >> Tools-5.sh
 echo "Tools Disimpan dengan Nama Tools-5.sh"
-fi
-
 read -p "[Y / N ] :" Y ;
 
 if [ $Y = Y ] || [ $Y = y ]
@@ -199,6 +195,7 @@ if [ $Y = N ] || [ $Y = n ]
 then
 clear
 exit                                                                
+fi
 fi
 
 if [ $ea = 6 ]
@@ -266,7 +263,6 @@ clear
 cat Tools-5
 fi
 """ >> Gabung.sh
-fi
 read -p "[Y / N ] :" Y ;
 
 if [ $Y = Y ] || [ $Y = y ]
@@ -279,6 +275,7 @@ if [ $Y = N ] || [ $Y = n ]
 then
 clear
 exit                                                                
+fi
 fi
 
 if [ $ea = 0 ]
